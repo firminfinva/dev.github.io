@@ -1,0 +1,72 @@
+body{
+  background-color: #ddddff;
+}
+.card{
+   width: 25rem;
+   height: 13rem;
+   margin-bottom: 1rem;
+   top: 35%;
+   left: 35%;
+   position: absolute;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 20px;
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+}
+.front{
+    background-color: white;
+    z-index: 3;
+
+
+}
+.front:hover{
+   z-index: 1;
+   display: none;
+
+}
+
+.profile{
+   width: 80%;
+   height: 70%;
+   margin: 10%;
+
+}
+
+.profile:hover{
+   opacity: 0;
+   display: none;
+}
+
+
+
+.back{
+     z-index: 2;
+
+}
+.back:hover{
+    background-color: #4682B4;
+    z-index: 4;
+    color: white;
+     transform: rotateY(360deg);
+     transition: transform 1s ease-in-out;
+}
+h4{
+   margin-left: 5%;
+}
+
+.raison{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+li{
+  font-size: 0.5rem;
+  margin-left: -1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
